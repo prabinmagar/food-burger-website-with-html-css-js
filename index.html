@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Site</title>
+    <!-- font awesome icons -->
+    <link rel = "stylesheet" href = "node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <!-- normalize css -->
+    <link rel = "stylesheet" href = "node_modules/normalize.css/normalize.css">
+    <link rel = "stylesheet" href = "assets/css/main.css">
+    <link rel = "stylesheet" href = "assets/css/utility.css">
+</head>
+<body>
+    <!-- header -->
+    <header class = "header text-light">
+        <div class = "container flex">
+            <!-- navbar starts -->
+            <nav class = "navbar flex">
+                <div class = "brand-and-toggler flex">
+                    <a href = "#" class = "navbar-brand">
+                        <img src = "assets/images/logo.png" alt = "site logo">
+                    </a>
+                    <button type = "button" id = "navbar-show-btn">
+                        <i data-feather = "menu" class = "feather-32"></i>
+                    </button>
+                </div>
+
+                <div class = "navbar-collapse bg-orange">
+                    <button type = "button" id = "navbar-hide-btn">
+                        <i data-feather = "x-circle" class = "feather-32"></i>
+                    </button>
+                    <ul class = "navbar-nav text-uppercase">
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link text-light">home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link text-light">product</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link text-light">promo</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link text-light">about</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link text-light">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- navbar ends -->
+
+            <div class = "header-content flex flex-c text-center">
+                <h1 class = "header-title fw-6">Get Cashback up to 50%</h1>
+                <p class = "header-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo ipsa dignissimos id? Perferendis, natus.</p>
+                <a href = "#" class = "btn btn-orange">order now</a>
+            </div>
+        </div>
+    </header> 
+    <!-- header ends -->
+
+    <main>
+        <!-- chefs section starts -->
+        <section class = "text-center py-9" id = "chefs">
+            <div class = "container">
+                <div class = "section-title">
+                    <h2>Our Chef</h2>
+                    <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquam quod numquam saepe earum in eaque</p>
+                </div>
+                <div class = "chefs-content grid">
+                    <div class = "chefs-item">
+                        <img src = "assets/images/chef-img-1.png" alt = "chef image">
+                        <span class = "chefs-item-name fw-6 text-uppercase text-orange">aiden hunter</span>
+                        <span class = "chefs-item-desg text-orange">Founder</span>
+                    </div>
+
+                    <div class = "chefs-item">
+                        <img src = "assets/images/chef-img-2.png" alt = "chef image">
+                        <span class = "chefs-item-name fw-6 text-uppercase text-orange">ethel ramsey</span>
+                        <span class = "chefs-item-desg text-orange">Co-Founder</span>
+                    </div>
+
+                    <div class = "chefs-item">
+                        <img src = "assets/images/chef-img-3.png" alt = "chef image">
+                        <span class = "chefs-item-name fw-6 text-uppercase text-orange">fannie stewart</span>
+                        <span class = "chefs-item-desg text-orange">Co-Founder</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- chefs section ends -->
+
+        <!-- order section starts -->
+        <section class = "text-center py-9 bg-orange" id = "order-1">
+            <div class = "container">
+                <div class = "order-content grid">
+                    <div class = "order-left">
+                        <img src = "assets/images/burger-img-1.png">
+                    </div>
+
+                    <div class = "order-right">
+                        <div class = "section-title">
+                            <h2 class = "text-light">Best Burger</h2>
+                            <p class = "text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquam quod numquam saepe earum in eaque</p>
+                        </div>
+                        <a href = "#" class = "btn btn-light">order now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class = "text-center py-9 bg-orange" id = "order-2">
+            <div class = "container">
+                <div class = "order-content grid">
+                    <div class = "order-left">
+                        <img src = "assets/images/burger-img-1.png">
+                    </div>
+
+                    <div class = "order-right">
+                        <div class = "section-title">
+                            <h2 class = "text-orange">Big Burger</h2>
+                            <p class = "text text-orange">Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquam quod numquam saepe earum in eaque</p>
+                        </div>
+                        <a href = "#" class = "btn btn-orange">order now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- order section ends -->
+
+        <!-- stats section starts -->
+        <section class = "text-center py-9 bg-orange" id = "stats">
+            <div class = "container">
+                <div class = "section-title">
+                    <h2 class = "text-light">Statistics</h2>
+                    <p class = "text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquam quod numquam saepe earum in eaque</p>
+                </div>
+
+                <div class = "stats-content grid">
+                    <div class = "stats-item text-light flex flex-c">
+                        <span class = "stats-item-value fw-6">7k</span>
+                        <span class = "stats-item-name fw-5 text-uppercase">customer</span>
+                    </div>
+                    <div class = "stats-item text-light flex flex-c">
+                        <span class = "stats-item-value fw-6">109</span>
+                        <span class = "stats-item-name fw-5 text-uppercase">outlets</span>
+                    </div>
+                    <div class = "stats-item text-light flex flex-c">
+                        <span class = "stats-item-value fw-6">35</span>
+                        <span class = "stats-item-name fw-5 text-uppercase">country</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- stats section ends -->
+
+        <!-- popular section starts -->
+        <section class = "text-center py-9 bg-orange" id = "popular">
+            <div class = "container">
+                <div class = "section-title">
+                    <h2 class = "text-orga
+                    ">Popular Package</h2>
+                </div>
+
+                <div class = "popular-content grid">
+                    <div class = "popular-item text-orange bg-light">
+                        <h3 class = "text-uppercase">package i</h3>
+                        <img src = "assets/images/burger-icon.png">
+                        <p class = "popular-item-price fw-7"><span class = "dollar-sign">$</span> 10.00</p>
+                        <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <a href = "#" class = "btn btn-orange">order now</a>
+                    </div>
+                    
+                    <div class = "popular-item text-orange bg-light">
+                        <h3 class = "text-uppercase">package ii</h3>
+                        <img src = "assets/images/burger-icon.png">
+                        <p class = "popular-item-price fw-7"><span class = "dollar-sign">$</span> 20.00</p>
+                        <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <a href = "#" class = "btn btn-orange">order now</a>
+                    </div>
+
+                    <div class = "popular-item text-orange bg-light">
+                        <h3 class = "text-uppercase">package iii</h3>
+                        <img src = "assets/images/burger-icon.png">
+                        <p class = "popular-item-price fw-7"><span class = "dollar-sign">$</span> 30.00</p>
+                        <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <a href = "#" class = "btn btn-orange">order now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- stats section ends -->
+
+        <!-- newsletter section starts -->
+        <section class = "text-center py-9 bg-orange" id = "newsletter">
+            <div class = "container">
+                <div class = "section-title">
+                    <h2 class = "text-light">Don't miss Our Update</h2>
+                    <p class = "text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquam quod numquam saepe earum in eaque</p>
+                </div>
+                <form class = "newsletter-form">
+                    <div class = "form-group flex">
+                        <input type = "email" class = "form-control" placeholder="Your Email">
+                        <button type = "submit" class = "subscribe-btn text-uppercase text-light bg-dark">subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- newsletter section ends -->
+    </main>
+    
+    <footer class = "bg-dark text-light" id = "footer">
+        <div class = "container">
+            <div class = "footer-content grid text-center">
+                <div class = "footer-item-1">
+                    <h2 class = "footer-item-title fw-5">Burger Shop</h2>
+                    <p class = "text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur laudantium similique, quo fuga molestiae inventore earum explicabo nulla ab ea, et harum, veniam dolores cupiditate?</p>
+                    <ul class = "social-icons flex">
+                        <li>
+                            <a href = "#" class = "bg-light text-dark text-center">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#" class = "bg-light text-dark text-center">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#" class = "bg-light text-dark text-center">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#" class = "bg-light text-dark text-center">
+                                <i class = "fab fa-whatsapp"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item-2">
+                    <h2 class = "footer-item-title fw-5">About</h2>
+                    <ul class = "footer-links">
+                        <li>
+                            <a href = "#" class = "text-light">History</a>
+                        </li>
+                        <li>
+                            <a href = "#" class = "text-light">Our Team</a>
+                        </li>
+                        <li>
+                            <a href = "#" class = "text-light">Brand Guidelines</a>
+                        </li>
+                        <li>
+                            <a href = "#" class = "text-light">Terms & Condition</a>
+                        </li>
+                        <li>
+                            <a href = "#" class = "text-light">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item-3">
+                    <h2 class = "footer-item-title fw-5">Services</h2>
+                    <ul class = "footer-links">
+                        <li>
+                            <a href = "#" class = "text-light">How to Order</a>
+                        </li>
+                        <li>
+                            <a href = "#" class = "text-light">Our Product</a>
+                        </li>
+                        <li>
+                            <a href = "#" class = "text-light">Order Status</a>
+                        </li>
+                        <li>
+                            <a href = "#" class = "text-light">Promo</a>
+                        </li>
+                        <li>
+                            <a href = "#" class = "text-light">Payment Method</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item-4">
+                    <h2 class = "footer-item-title fw-5">Other</h2>
+                    <ul class = "footer-links">
+                        <li>
+                            <a href = "#" class = "text-light">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href = "#" class = "text-light">Help</a>
+                        </li>
+                        <li>
+                            <a href = "#" class = "text-light">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- font awesome -->
+    <script src = "node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+    <!-- feather icons -->
+    <script src = "node_modules/feather-icons/dist/feather.js"></script>
+    <!-- jquery -->
+    <script src = "node_modules/jquery/dist/jquery.js"></script>
+    <script src = "assets/js/script.js"></script>
+</body>
+</html>
